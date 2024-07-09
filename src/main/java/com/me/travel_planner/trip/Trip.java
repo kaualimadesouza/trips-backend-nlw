@@ -47,4 +47,5 @@ public class Trip {
         this.startsAt = LocalDateTime.parse(tripRequestDTO.starts_at(), DateTimeFormatter.ISO_DATE_TIME);
         this.endsAt = LocalDateTime.parse(tripRequestDTO.ends_at(), DateTimeFormatter.ISO_DATE_TIME);
     }
+
 }
